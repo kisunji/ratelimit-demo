@@ -1,4 +1,5 @@
 # ratelimit-demo
+Needs Consul Enterprise
 
 ```sh
 consul agent -dev
@@ -17,4 +18,5 @@ consul config write backend/service-defaults.hcl
 ```
 
 frontend: http://localhost:5000
+
 backend envoy admin: http://localhost:19000
